@@ -55,34 +55,18 @@ console.log('Some stars using while:');
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
+let num = 0
+while (num < 6) {
+  console.log(num);
+  num ++;
+}
+
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
-// I dont know how to do this
+let i = 10
+while (i > 4) {
+  console.log(i);
+  i -= 1;
+}
 ////////////////////////////////////////////////////////////////////////////////
-
-let endex = 0;
-const mex = 10;
-
-while (index < max) {
-  console.log('In while loop, index:', index);
-  index++;
-}
-
-for (let i = 0; i < max; i++) {
-  console.log('in for loop. i:', i);
-}
-
-
-let hand = ['Q', '3', 'J', '9', '6', 'K', 'A']
-
-for( let i=0; i<hand.length; i++ ){
-console.log('for loop,', hand[ i ]);
-if ( hand[ i ] === '9' ) {
-  console.log( 'Match!!!');{}
-}
-}
-
-for( i in hand ){
-  console.log("for in loop", hand[ i ]);
-}
